@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/logo.png'
 import {Link , NavLink} from 'react-router-dom'
 import {FaFacebookF , FaTwitter , FaInstagram} from 'react-icons/fa'
 
@@ -10,7 +11,13 @@ function Navbar() {
   };
 
   return (
-   <div className='w-full min-h-[50px] flex justify-between items-center  z-10 text-white bg-gray-600/80 opacity-100'>
+   <div className='w-full min-h-[60px] flex justify-between items-center  z-10  text-xl text-white bg-indigo-600 opacity-100'>
+
+<div className='flex items-center '>
+        <img src={logo} alt="logo"   className='h-14 mr-3'/>
+        <h1 className='text-center  text-2xl font-bold text-gray-900 '>TRAVL</h1>
+      </div>
+
     <ul className='px-4 flex'>
       <li className='mx-3'>
         <NavLink 
