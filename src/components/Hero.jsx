@@ -16,7 +16,7 @@ function Hero() {
             <p className='mr-4 text-xl '>Embark on unforgettable journeys with our travel plans, where adventure meets comfort. Explore diverse destinations, discover hidden gems, and plan your dream getaway with expert insights and personalized recommendations.</p>
         </div>
             <Link to='/visit'>
-        <div className= ' absolute top-[75%] translate-x-[35vw]  bg-lime-500 hover:bg-transparent  text-white font-bold text-xl py-4 px-7 rounded-full cursor-pointer'>Get Started</div>
+        <div className= ' absolute top-[75%] translate-x-[40vw]  bg-lime-500 hover:bg-transparent  text-white font-bold text-xl py-4 px-7 rounded-full cursor-pointer'>Get Started</div>
         </Link>
 
       </div>
